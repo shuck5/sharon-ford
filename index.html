@@ -2,40 +2,52 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link href="css/main.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/main.css">
 	</head>
-	<body>
-		<div class="container">
-			<div class="logo">
-			</div>
-			<nav>
-				<ul>
-					<li>Home</li>
-					<li>About</li>
-					<li>Services</li>
-					<li>Contact</li>
-				</ul>
-			</nav>
+	<body class="container-fluid">
+
+		<nav class="row navbar navbar-fixed-top navbar-dark bg-inverse">
+			<ul class="container nav navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item"><a class="nav-link" href="#bio">About</a></li>
+				<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+				<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
 		</div>
-		<div class="container">
 			<div class="jumbotron">
-			<div>
+					<div class="row text-xs-center">
+					<div class="logo">
+						<a href="index.html"><img srcset="images/sflogo.png" class="img-fluid center-block"></a>
+					</div>
+				<h1>Summertime Special!</h1>
+				<h3>From now until August 30th, 2016, we will be offering a 20% discount on all services!</h3>
+				<h4>Don't miss out! Click the button below to contact Sharon</h4>
+				<button type="button" class="btn btn-primary">Contact</button>
+			</div>
 		</div>
-		<div class="container">
-			<h1>About</h1>
-			<div class="bio">
+		<div class="row">
+			<h1 class="heading-1 text-xs-center">About</h1>
+			<div id="bio" class="col-sm-6">
 				<p>Sharon Ford lives in the beautiful Napa Valley. She grew up in Southern California, and migrated to Northern California when her daughter was in elementary school. Sharon found Napa to be the perfect place to raise her child, and make lasting business connections in the Bay Area (..and the wine isn't half bad either!). Always seeking more knowledge, she set out on a journey to become a Notary Public. She has kept up with the classes throughout the years, and is now available to offer her services to anyone in the Greater Bay Area. Has pen, will travel.</p>
 			</div>
-			<div class="history">
+			<div class="history col-sm-6">
 				<p>With over 40 years in the insurance industry under her belt, Sharon is a leader in her field. Her vast knowlege of the industry led her to pursuing a credential as a Notary Public. She has used her Notary credential in many different situations. If you are interested in a traveling notary, please click the contact button at the top of this page, or follow this link. </p>
 			</div>
 		</div>
-		<div class="container">
-			<h1>Services</h1>
-			<div class="services">
+		<div class="row">
+			<h1 class="text-xs-center">Services</h1>
+			<div id="services">
 				<ul>
 				</ul>
 			</div>
 		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
 	</body>
 </html>
